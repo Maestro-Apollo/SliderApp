@@ -19,5 +19,9 @@
         android:layout_height="wrap_content"
         android:text="Unlock"
         android:onClick="UnlockBtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nothing"/>
 
 </LinearLayout>
