@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.r0adkll.slidr.Slidr;
 import com.r0adkll.slidr.model.SlidrInterface;
@@ -22,6 +23,7 @@ public class Main2Activity extends AppCompatActivity {
 
     public void LockBtn(View view) {
         slidr.lock();
+        Toast.makeText(this, "Activity is locked!", Toast.LENGTH_SHORT).show();
 
     }
 
